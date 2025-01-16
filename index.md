@@ -90,17 +90,9 @@ the pitch.
 {% endcomment %}
 
 <p>
-<strong><a href="https://carpentries.org">The Carpentries</a></strong> project comprises the <a
-href="{{site.swc_site}}">Software Carpentry</a>, <a href="{{site.dc_site}}">Data Carpentry</a>, and
-<a href="{{site.lc_site}}">Library Carpentry</a> communities of Instructors, Trainers, Maintainers,
-helpers, and supporters who share a mission to teach foundational computational and data science
-skills to researchers.
-<p align="center">
-  <em>
-  <strong>Want to learn more and stay engaged with The Carpentries?</strong> Carpentries Clippings is The Carpentries' biweekly newsletter, where we share community news, community job postings, and more.
-Sign up to receive future editions and read our full archive: <a href="https://carpentries.org/newsletter/">https://carpentries.org/newsletter/</a>
-  </em>
+<strong><a href="https://www.software.ac.uk/programmes/research-software-practices-social-sciences"> Research Software Practices in the Social Sciences </a><strong> project, created by the <strong><a href="https://www.software.ac.uk/"> Software Sustainability Institute </a><strong> and funded by the <strong> <a href="https://www.ukri.org/councils/esrc/"> Economic and Social Research Council </a><strong>, seeks to enhance the understanding of software's role in social sciences research through a variety of outreach activities. For the Spring semester (20th Jan to 28th Mar 2025)  we aim to bring together experts who can share their insights and experiences, fostering a community of researchers focused on sustainable, responsible, and effective software practices.
 </p>
+
 {% if site.carpentry == "swc" %}
 {% include swc/intro.html %}
 {% elsif site.carpentry == "dc" %}
@@ -312,10 +304,9 @@ We will use this <a href="{{ page.collaborative_notes }}">collaborative document
 SURVEYS - DO NOT EDIT SURVEY LINKS
 {% endcomment %}
 <h2 id="surveys">Surveys</h2>
-<p>Please be sure to complete these surveys before and after the workshop.</p>
+<p> We would appreciate your feedback after the workshop.</p>
 {% if site.carpentry == "incubator" %}
-<p><a href="{{ site.incubator_pre_survey }}">Pre-workshop Survey</a></p>
-<p><a href="{{ site.incubator_post_survey }}">Post-workshop Survey</a></p>
+<p><a href="https://forms.office.com/e/s8Cwa5inKp">Post-workshop Survey</a></p>
 {% elsif site.incubator_pre_survey or site.incubator_post_survey %}
 <div class="alert alert-danger">
 WARNING: you have defined custom pre- and/or post-survey links for
@@ -326,8 +317,7 @@ in `_config.yml` or, if this workshop is teaching a lesson in the Incubator,
 change the value of `carpentry` to `incubator`.
 </div>
 {% else %}
-<p><a href="{{ site.pre_survey }}{{ site.github.project_title }}">Pre-workshop Survey</a></p>
-<p><a href="{{ site.post_survey }}{{ site.github.project_title }}">Post-workshop Survey</a></p>
+<p><a href="https://forms.office.com/e/s8Cwa5inKp">Post-workshop Survey</a></p>
 {% endif %}
 
 <hr/>
