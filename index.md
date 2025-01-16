@@ -90,8 +90,7 @@ the pitch.
 {% endcomment %}
 
 <p>
-<strong><a href="https://www.software.ac.uk/programmes/research-software-practices-social-sciences"> Research Software Practices in the Social Sciences </a><strong> project, created by the <strong><a href="https://www.software.ac.uk/"> Software Sustainability Institute </a><strong> and funded by the <strong> <a href="https://www.ukri.org/councils/esrc/"> Economic and Social Research Council </a><strong>, seeks to enhance the understanding of software's role in social sciences research through a variety of outreach activities. For the Spring semester (20th Jan to 28th Mar 2025)  we aim to bring together experts who can share their insights and experiences, fostering a community of researchers focused on sustainable, responsible, and effective software practices.
-</p>
+<strong><a href="https://www.software.ac.uk/programmes/research-software-practices-social-sciences"> Research Software Practices in the Social Sciences </a></strong>strong> project, created by the <strong><a href="https://www.software.ac.uk/"> Software Sustainability Institute </a></strong>strong> and funded by the <strong> <a href="https://www.ukri.org/councils/esrc/"> Economic and Social Research Council </a></strong>strong>, seeks to enhance the understanding of software's role in social sciences research through a variety of outreach activities. For the Spring semester (20th Jan to 28th Mar 2025)  we aim to bring together experts who can share their insights and experiences, fostering a community of researchers focused on sustainable, responsible, and effective software practices.
 
 {% if site.carpentry == "swc" %}
 {% include swc/intro.html %}
