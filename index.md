@@ -208,8 +208,7 @@ special instructions.
 {% endcomment %}
 <p id="accessibility">
   <strong>Accessibility:</strong>
-  We are committed to making this workshop
-  accessible to everybody. 
+  We are dedicated to providing a positive and accessible learning environment for all. If you have questions or need assistance with the accommodation form please <a href="mailto:team@carpentries.org">email us</a>.
 {% if online == "false" %}
   The workshop organizers have checked that:
 <p>
@@ -218,8 +217,6 @@ special instructions.
     <li>Accessible restrooms are available.</li>
   </ul>
 {% endif %}
-</p>
-<p>We are dedicated to providing a positive and accessible learning environment for all. If you have questions or need assistance with the accommodation form please <a href="mailto:team@carpentries.org">email us</a>.
 </p>
 <p>
   <a href="https://glosario.carpentries.org/">Glosario</a> is a multilingual glossary 
@@ -285,11 +282,6 @@ CODE OF CONDUCT
 Everyone who participates in Software Sustainability Institute activities is required to conform to the <a href="https://www.software.ac.uk/training/research-software-camps/code-of-conduct">Code of Conduct</a>. This document also outlines how to report an incident if needed.
 </p>
 
-<p class="text-center">
-  <a href="https://goo.gl/forms/KoUfO53Za3apOuOK2">
-    <button type="button" class="btn btn-info">Report a Code of Conduct Incident</button>
-  </a>
-</p>
 <hr/>
 
 
