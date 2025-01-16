@@ -2,11 +2,6 @@
 layout: page
 title: "Contributor Code of Conduct"
 ---
-As contributors and maintainers of this project,
-we pledge to follow the [Carpentry Code of Conduct][coc].
+Everyone who participates in Software Sustainability Institute activities is required to conform to the Code of Conduct [coc]. This document also outlines how to report an incident if needed.
 
-Instances of abusive, harassing, or otherwise unacceptable behavior
-may be reported by following our [reporting guidelines][coc-reporting].
-
-[coc]: https://docs.carpentries.org/topic_folders/policies/code-of-conduct.html
-[coc-reporting]: https://docs.carpentries.org/topic_folders/policies/incident-reporting.html
+[coc]: https://www.software.ac.uk/training/research-software-camps/code-of-conduct
